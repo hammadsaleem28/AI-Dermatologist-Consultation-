@@ -110,7 +110,7 @@ def analyze_skin_image(image_data, user_query="Analyze this skin condition"):
     """
 
     try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+        url = {GEMINI_API_KEY}"
         
         payload = {
             "contents": [
@@ -177,7 +177,7 @@ def chat_with_dermatologist(user_message):
     """
 
     try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+        url ={GEMINI_API_KEY}"
         
         payload = {
             "contents": [
